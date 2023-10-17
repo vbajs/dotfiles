@@ -9,7 +9,7 @@
     "modules-left": [
         "clock",
         "custom/weather",
-        "wlr/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
