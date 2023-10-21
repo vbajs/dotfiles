@@ -273,17 +273,14 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # copy the HyprV directory
     cp -R HyprV ~/.config/
 
+    #Ensure that the gamemode.sh script will work
+    chmod +x ~/.config/HyprV/gamemode.sh
+
     #set the measuring unit
     echo -e "$CNT - Attempring to set mesuring unit..."
-    if locale -a | grep -q ^en_US; then
-        echo -e "$COK - Setting mesuring system to imperial..."
-        ln -sf ~/.config/HyprV/waybar/conf/mesu-imp.jsonc ~/.config/HyprV/waybar/conf/mesu.jsonc
-        sed -i 's/SET_MESU=""/SET_MESU="I"/' ~/.config/HyprV/hyprv.conf
-    else
-        echo -e "$COK - Setting mesuring system to metric..."
-        sed -i 's/SET_MESU=""/SET_MESU="M"/' ~/.config/HyprV/hyprv.conf
-        ln -sf ~/.config/HyprV/waybar/conf/mesu-met.jsonc ~/.config/HyprV/waybar/conf/mesu.jsonc
-    fi
+	echo -e "$COK - Setting mesuring system to metric..."
+    sed -i 's/SET_MESU=""/SET_MESU="M"/' ~/.config/HyprV/hyprv.conf
+    ln -sf ~/.config/HyprV/waybar/conf/mesu-met.jsonc ~/.config/HyprV/waybar/conf/mesu.jsonc
 
     # Setup each appliaction
     # check for existing config folders and backup 
