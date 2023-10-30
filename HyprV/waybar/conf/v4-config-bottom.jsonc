@@ -9,7 +9,6 @@
     "modules-left": [
         "custom/launch_wofi",
         "custom/launch_firefox",
-        "custom/launch_thunderbird",
         "custom/launch_kitty",
         "custom/launch_thunar"
     ],
@@ -23,12 +22,6 @@
     "custom/launch_firefox": {
         "format": "",
         "on-click": "firefox",
-        "tooltip": false
-    },
-
-    "custom/launch_thunderbird": {
-        "format": "󰇰",
-        "on-click": "thunderbird",
         "tooltip": false
     },
 
