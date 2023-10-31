@@ -53,6 +53,7 @@ install_stage=(
     thunar 
     btop
     firefox
+    keepassxc
     mpv
     pamixer 
     pavucontrol 

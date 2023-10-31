@@ -9,6 +9,7 @@
     "modules-left": [
         "custom/launch_wofi",
         "custom/launch_firefox",
+        "custom/launch_keepassxc",
         "custom/launch_kitty",
         "custom/launch_thunar"
     ],
@@ -22,6 +23,12 @@
     "custom/launch_firefox": {
         "format": "",
         "on-click": "firefox",
+        "tooltip": false
+    },
+
+    "custom/launch_keepassxc": {
+        "format": "󰷖",
+        "on-click": "keepassxc",
         "tooltip": false
     },
 
