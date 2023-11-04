@@ -141,6 +141,7 @@ TOOLTIP='Default Keybinds\n'\
 'SUPER + V = Toggle Float\n'\
 'SUPER + F = Toggle Fullscreen\n'\
 'SUPER + SPACE = App Launcher\n'\
+'SUPER + SHIFT + SPACE = More Apps Launcher\n'\
 'SUPER + S = Screenshot\n'\
 'SUPER + T = Switch HyprV version\n'\
 'ALT + V = Open clipboard manager\n'\
