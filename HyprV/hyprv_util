@@ -133,6 +133,7 @@ get_ver
 
 TOOLTIP='Default Keybinds\n'\
 'SUPER + ENTER = Start Kitty\n'\
+'SUPER + TAB = Cycle between workspaces\n'\
 'SUPER + Q = Close Window\n'\
 'SUPER + L = Lock Screen\n'\
 'SUPER + M = Logout menu\n'\
