@@ -265,9 +265,6 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # copy the HyprV directory
     cp -R HyprV ~/.config/
 
-    #Ensure that the gamemode.sh script will work
-    chmod +x ~/.config/HyprV/gamemode.sh
-
     # Setup each appliaction
     # check for existing config folders and backup 
     for DIR in hypr kitty mako swaylock waybar wlogout wofi 
