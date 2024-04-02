@@ -145,7 +145,6 @@ TOOLTIP='Default Keybinds\n'\
 'SUPER + SHIFT + SPACE = More Apps Launcher\n'\
 'SUPER + S = Screenshot\n'\
 'SUPER + T = Switch HyprV version\n'\
-'ALT + V = Open clipboard manager\n'\
-'SUPER + F1 = Toggle animations'
+'ALT + V = Open clipboard manager'
 
 echo '{"text": "'$VER'", "tooltip": "'$TOOLTIP'"}'
