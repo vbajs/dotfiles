@@ -27,7 +27,7 @@
     },
 
     "custom/launch_keepassxc": {
-        "format": "󰷖",
+        "format": "",
         "on-click": "keepassxc",
         "tooltip": false
     },
