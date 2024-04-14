@@ -144,6 +144,7 @@ TOOLTIP='Default Keybinds\n'\
 'SUPER + SPACE = App Launcher\n'\
 'SUPER + SHIFT + SPACE = More Apps Launcher\n'\
 'SUPER + S = Screenshot\n'\
+'PRNTSCRN = Fullscreen screenshot\n'\
 'SUPER + T = Switch HyprV version\n'\
 'ALT + V = Open clipboard manager'
 
